@@ -15,7 +15,7 @@ deno run --allow-net index.ts
 
 - Use the application by sending Http POST requests to the routes /generateModel and /checkEvent.
 
-### /generateModel Route
+### /generateModel
 
 Route: /generateModel
 Method: GET
@@ -27,7 +27,7 @@ Example Usage:
 curl http://localhost:8000/generateModel
 ```
 
-### /checkEvent Route
+### /checkEvent
 
 Route: /checkEvent
 Method: POST
