@@ -1,4 +1,4 @@
-### Nostr Spam Detection with NaiveBayes Algorithm
+### Nostr Spam Detection with NaiveBayes Algorithm ###
 
 This is a command line application that works on Nostr social media platform and uses NaiveBayes algorithm. It utilizes Oak module of Deno. There are two routes named /generateModel and /checkEvent. When generateModel route is called, events marked as spam with NIP-56 on Nostr are pulled from relay servers and labeled as negative in NaiveBayes library. Similarly, records from the last 12 hours that are not marked as spam are pulled and a model is created for classification. checkEvent route works with Http POST method and accepts JSON. It categorizes the information given in the content parameter of the body according to the model created with generateModel route as positive and negative and returns this parameter as a response to the request.
 
