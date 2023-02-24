@@ -52,3 +52,7 @@ Response:
 ### Note:
 
 This application only creates a model for spam detection from the events marked as spam on Nostr, it does not directly detect spam events on Nostr. The model is stored in memory and is not saved to a file.
+
+### Donate: 
+
+uprightbirth17@walletofsatoshi.com
